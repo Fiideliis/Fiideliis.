@@ -1,0 +1,458 @@
+html{
+  transform: scale(0.85);
+  position:absolute;
+}
+
+body { 
+  background:repeating-radial-gradient(rgba(103, 187, 226, 0.5), rgba(94, 202, 235, 0.603),rgba(199, 233, 243, 0.514));
+  
+ }
+
+ @font-face {
+   font-family: 'Jersey10-Regular';
+   src: url('Fonts/Jersey_10/Jersey10-Regular.ttf') format('truetype');
+ }
+
+ #borda001img { 
+   border: 300px solid transparent;
+   padding-top: 0px;
+   width:1200px;
+   border-image: url(Imagens/borda001.png) 400;
+   border-radius: 40%;
+   image-rendering: pixelated;
+   margin-top: -10%;
+   margin-bottom: -10%;
+   transform: scale(0.8); 
+ }
+
+ .imagens { 
+   position:absolute;
+ }
+
+
+  .Star_2 {
+   width: 100px;
+   left: 1559px;
+   top: -5px;
+   background-image: url(Star.png);
+  }
+
+  .Star {
+   width: 100px;
+   left: 139px;
+   top: -5px;
+  }
+
+ .FundoBranco {
+   width: 1245px;
+   height: 690px;
+   left: 284px;
+   top: 318px;
+   border-radius: 4.9%;
+  }
+
+  .Luigi {
+   width: 182px;
+   left: 1349px;
+   top: 103px;
+  }
+
+ .Mario {
+   width: 230px;
+   left: 315px;
+   top: 105px;
+  }
+
+  .Megaman {
+   width: 620px;
+   left: 585px;
+   top: 335px;
+   opacity: 15%;
+  }
+
+ .PixelGuy {
+   width: 370px;
+   left: -50px;
+   top: 1500px;
+  }
+ 
+ .Sonic {
+   width: 320px;
+   left: 1510px;
+   top: 1469px;
+   filter:blur(0.48px)
+  }
+
+ .Clouds {
+   width: 210px;
+   left: 70px;
+   top: 150px;
+ }
+
+  .Pokebola {
+   width: 250px;
+   left: 350px;
+   top: 1158px;
+    filter: opacity(80%);
+  }
+
+  .Pokebola_2 {
+   width: 250px;
+   left: 1250px;
+   top: 1158px;
+    filter: opacity(80%);
+  }
+
+  .Pokedex {
+   width: 170px;
+   left: 807px;
+   top: 2050px;
+   filter: opacity(90%);
+  }
+
+  .Pokemon {
+     width: 590px;
+   left: 590px;
+   top: 1028px;
+   filter: opacity(20%); }
+
+
+ span {margin-left: 15px;}
+
+ h1 {
+   -webkit-text-stroke-width: 7px;
+   -webkit-text-stroke-color: rgba(62, 67, 80, 0.144);
+   text-align: center;
+   color: #04068b;
+   font-size: 90px;
+   font-family: 'Jersey10-Regular';
+   background-color: rgba(241, 240, 247, 0.884);
+   border-radius: 20px;
+   letter-spacing: 0.2cap;
+   border: 7px solid black;
+   margin-top: -1%;
+   box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+ }
+
+ .p1 {
+   -webkit-text-stroke-width: 6px;
+   -webkit-text-stroke-color: rgba(93, 122, 196, 0.151);
+   font-size: 37px;
+   text-align: justify;
+   background-color: rgba(34, 32, 32, 0);
+   font-family: 'Jersey10-Regular';
+   letter-spacing: 0.01cap;
+  }
+  .P1::first-letter { 
+   font-size: 2em;
+   margin-left: 10px;
+ }
+
+ button { 
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: rgba(62, 67, 80, 0.144);
+  text-align:center;
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  font-family: 'Jersey10-Regular';
+  background-color: rgb(68, 124, 228);
+  border-radius: 20px;
+  letter-spacing: 0.2cap;
+  border: 10px solid black;
+  margin-top: 58px;
+  margin-left: 735px;
+  box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  transform: scale(0.55);
+  padding: 20px;
+  cursor: pointer;
+ }
+
+ #mensagem {
+ -webkit-text-stroke-width: 5px;
+ -webkit-text-stroke-color: rgb(11, 12, 14);
+ text-align:center;
+ color: #e9ec0c;
+ font-size: 100px;
+ font-family: 'Jersey10-Regular';
+ margin-top: 0px;
+ margin-left: 765px;
+ position: absolute;
+ }
+
+ #mensagem2 {
+ -webkit-text-stroke-width: 3px;
+ -webkit-text-stroke-color: rgb(11, 12, 14);
+ text-align:center;
+ color: #e9ec0c;
+ font-size: 65px;
+ font-family: 'Jersey10-Regular';
+ margin-top: 260px;
+ margin-left: 790px;
+ position: absolute;
+ letter-spacing: 0.1cap;
+ }
+
+ #mensagem3 {
+ -webkit-text-stroke-width: 3px;
+ -webkit-text-stroke-color: rgb(11, 12, 14);
+ text-align:center;
+ color: #e9ec0c;
+ font-size: 65px;
+ font-family: 'Jersey10-Regular';
+ margin-top: 320px;
+ margin-left: 545px;
+ position: absolute;
+ letter-spacing: 0.1cap;
+ }
+
+ h2 { 
+   -webkit-text-stroke-width: 7px;
+   -webkit-text-stroke-color: rgba(241, 245, 253, 0.342);
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-size: 40px;
+   font-family: 'Jersey10-Regular';
+   background-color: rgb(163, 25, 25);
+   border-radius: 20px;
+   letter-spacing: 0.2cap;
+   border: 7px solid rgb(0, 0, 0);
+   margin-right: 57%;
+   margin-top: 35%;
+   box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+  }
+
+   li {
+   margin-bottom: 70px;
+   font-family: 'Jersey10-Regular';
+   font-size: 42px;
+   -webkit-text-stroke-width: 7px;
+   -webkit-text-stroke-color: rgba(62, 67, 80, 0.144);
+ }
+
+   .hobbie1{
+   width: 150px;
+   height: 150px;
+   left: 560px;
+   top: -40px;
+   border-radius: 20px ;
+   box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+   filter:blur(0.5px);
+  }
+
+   .hobbie2{
+   width: 150px;
+   height: 150px;
+   left: 560px;
+   top: 140px;
+   border-radius: 20px;
+   box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+   filter:blur(0.5px)
+  }
+
+   .hobbie3{
+   width: 150px;
+   height: 150px;
+   left: 560px;
+   top: 325px;
+   border-radius: 20px ;
+   box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+   filter:blur(0.5px)
+  }
+
+  h4 { 
+   -webkit-text-stroke-width: 7px;
+   -webkit-text-stroke-color: rgba(255, 255, 255, 0.144);
+   font-size: 9px;
+   font-family: 'Jersey10-Regular';
+   background-color: rgba(241, 240, 247, 0.884);
+   border-radius: 20px;
+   letter-spacing: 0.2cap;
+   border: 12px solid rgb(163, 25, 25);
+   margin-right:57%;
+   box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+   padding-top: 3%;
+  }
+
+   h3 { 
+   -webkit-text-stroke-width: 7px;
+   -webkit-text-stroke-color: rgba(241, 245, 253, 0.342);
+   text-align: center;
+   color:  rgb(255, 255, 255);
+   font-size: 40px;
+   font-family: 'Jersey10-Regular';
+   background-color: rgb(69, 33, 230);
+   border-radius: 20px;
+   letter-spacing: 0.2cap;
+   border: 7px solid rgb(0, 0, 0);
+   margin-top: -38.8%;
+   margin-left: 55%;
+   margin-right: 1.09%;
+   box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+   padding: 0.01%;   
+ }
+
+  h5 { 
+ 
+   font-family: 'Jersey10-Regular';
+   background-color: rgba(255, 255, 255, 0.514);
+   border-radius: 15px;
+   border: 5px solid rgb(69, 33, 230);
+   width: 775px;
+   height: 570.5px;
+   margin-left: 55%;
+   margin-right: 2%;
+   margin-top: -8px;
+   box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+  }
+
+   .tabela, th, td {
+   table-layout:fixed;
+   border-collapse:collapse;
+   padding: 35px;
+   text-align: center;
+   border: 9px solid rgb(69, 33, 230);
+   width: 504px;
+   height:108px;
+   margin-left: 0px;
+   margin-top: 0%;
+  }
+   
+   .tabela {box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);}
+  
+   th{
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: rgba(62, 67, 80, 0.247);
+   text-align:center;
+   color: #050505;
+   font-size: 75px;
+   font-family: 'Jersey10-Regular';
+   letter-spacing: 0.5cap;
+  } 
+ 
+   .Países {
+   width: 105px;
+  }
+
+   .País1{
+    background-image:url(Imagens/Japão2.png);
+    background-size: contain;
+    filter:blur(0.5px);
+  }
+   .País2{
+    background-image:url(Imagens/Suíça2.png);
+    background-size:contain;
+    filter:blur(0.5px);
+  }
+   .País3{
+    background-image:url(Imagens/Coreia2.png);
+    background-size:contain;
+    filter:blur(0.5px)
+ }
+
+ .p2 {
+   -webkit-text-stroke-width: 6px;
+   -webkit-text-stroke-color: rgba(93, 122, 196, 0.151);
+   font-size: 40px;
+   text-align: center;
+   font-family: 'Jersey10-Regular';
+   letter-spacing: 0.01cap;
+   border-color: rgb(0, 4, 7) solid;
+   background-color: rgba(8, 8, 8, 0.178);
+   padding: 1%;
+   padding-bottom: 1.4%;
+   margin-top: 35.55%;
+  }
+
+ .button2 { 
+  text-align:center;
+  color: #fafafc;
+  font-size: 55px;
+  font-family: 'Jersey10-Regular';
+  background-color: rgb(54, 0, 201);
+  border-radius: 20px;
+  border: 7px solid black;
+  margin-top: -20px;
+  margin-left: -133px;
+  box-shadow:5px 8px 10px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.04cap;
+  position: absolute;
+  transform: scale(0.5);
+  padding: 20px;
+  cursor: pointer;
+ }
+
+ .a2 {
+ -webkit-text-stroke-width: 6px;
+ -webkit-text-stroke-color: rgba(93, 122, 196, 0.151);
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Jersey10-Regular';
+ color: rgb(156, 4, 202);            
+ font-size: 50px;
+ position: absolute;
+ margin-top: -200px;
+ margin-left: 123px
+ }
+
+ .a2:hover {
+ color: rgb(13, 4, 138);              
+ text-decoration: underline;
+ }
+
+ .a3 {
+ -webkit-text-stroke-width: 6px;
+ -webkit-text-stroke-color: rgba(93, 122, 196, 0.151);
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Jersey10-Regular';
+ color: rgb(202, 4, 4);            
+ font-size: 50px;
+ position:absolute;
+ margin-top: -200px;
+ margin-left: 353px;
+
+ }
+
+ .a3:hover {
+ color: rgb(13, 4, 138);              
+ text-decoration: underline;
+}
+
+
+.H4Back {
+  position:relative;
+  width: 500px;
+  height: 500px;
+}
+
+.PokemonGroudon {
+  opacity: 0.1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -80px;
+  margin-left: 85px;
+  padding:15%;
+  transform: scale(1.32);
+}
+
+
+.H5Back {
+  position:relative;
+  width: 1000px;
+  height: 600px;
+}
+
+.PokemonKyogre {
+  opacity: 0.1;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-top: -80px;
+  margin-left: -115px;
+  padding:8%;
+  transform: scale(0.90);
+}
